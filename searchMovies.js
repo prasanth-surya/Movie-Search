@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+mimport React, {useState} from "react";
 
 export default function SearchMovies(){
     
@@ -26,7 +26,7 @@ export default function SearchMovies(){
             <form className="form" onSubmit={searchMovies}>
                 <label className="label" htmlFor="query">Movie Name</label>
                 <input className="input" type="text" name="query"
-                    placeholder="i.e. Jurassic Park"
+                    placeholder="Enter movie name"
                     value={query} onChange={(e) => setQuery(e.target.value)}
                     />
                 <button className="button" type="submit">Search</button>
