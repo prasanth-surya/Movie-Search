@@ -2,9 +2,9 @@ mimport React, {useState} from "react";
 
 export default function SearchMovies(){
     
-    //states- input query, movies
+    //states  input query, movies
     const [query, setQuery] = useState('');
-    //create the state for movies, and update that state appropriate
+    //state for movies, and state appropriate
     const [movies, setMovies] = useState([]);
     
     
